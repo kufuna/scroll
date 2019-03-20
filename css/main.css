@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background: black;
+}
+* {
+    box-sizing: border-box;
+}
+/*.container {
+    width: 100vw;
+    height: 100vh;
+}*/
+
+/*.container{
+    pointer-events: none;;
+}
+
+button{
+    all: unset;
+    display: block;
+    width: 100%;
+}*/
+
+
+body{
+    /*overflow: hidden;*/
+}
+/* .container{
+    width: 100%;
+    transform: scale(0.9);
+}
+ */
+
+
+ .slide {
+    animation: slide 1s both;
+ }
+
+
+ @keyframes slide{
+    from { opacity: 0;  }
+    100%{ opacity: 1; }
+ }
